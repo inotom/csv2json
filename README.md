@@ -5,7 +5,7 @@ Convert CSV data to JSON
 ## Installation
 
 ```
-$ go get -u github.com/inotom/inscopy
+$ go get -u github.com/inotom/csv2json
 ```
 
 ## Usage
