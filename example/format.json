@@ -1,0 +1,22 @@
+{
+  "readAll": false,
+  "separator": "comma",
+  "lazyQuotes": true,
+  "fields": [
+    {
+      "name": "_"
+    },
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "value",
+      "type": "float"
+    },
+    {
+      "name": "url",
+      "type": "string"
+    }
+  ]
+}

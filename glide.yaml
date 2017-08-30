@@ -1,0 +1,4 @@
+package: github.com/inotom/csv2json
+import:
+- package: github.com/urfave/cli
+  version: v1.20.0
