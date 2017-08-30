@@ -40,6 +40,10 @@ fmt: setup
 bin/%: $(SRCS) deps
 	go build -ldflags "$(LDFLAGS)" -o $@ $(SRCS)
 
+## Install binaries
+install: deps
+	go install -ldflags "$(LDFLAGS)"
+
 ## Show help
 help:
 	@make2help $(MAKEFILE_LIST)
